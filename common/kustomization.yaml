@@ -1,0 +1,10 @@
+resources:
+  - namespace.yaml
+  - configmap.yaml
+
+namespace: test-namespace
+
+labels:
+  - includeSelectors: false
+    pairs:
+      app: test
